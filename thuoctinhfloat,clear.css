@@ -1,0 +1,32 @@
+div{
+    width: 200px;
+    height: 100px;
+  }
+  #div1{
+    background: red;
+    float: left;
+
+  }
+  #div2{
+    background: green;
+    float: right;
+  }
+  div{
+    width: 200px;
+    height: 100px;
+  }
+  #div1{
+    background: red;
+    float: left;
+
+  }
+  #div2{
+    background: green;
+    float: left;
+  }
+  #div3{
+    background: blue;
+    clear: both;
+  }
+
+
