@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.8;
+  background-color: pink;
+  color: green;
+  padding: 10px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+header h1::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #3498db;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+
+.family-member {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.family-member:hover {
+  transform: translateY(-5px);
+}
+
+
+.family-member h2 {
+  color: #2980b9;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+
+.family-member img {
+  max-width: 55%;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  border: 2px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.family-member p {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: #2980b9;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 50px;
+  color: black;
+}
